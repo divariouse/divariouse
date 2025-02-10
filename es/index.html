@@ -1,0 +1,1056 @@
+<!DOCTYPE html><html lang="en" dir="ltr"><head>
+  <meta charset="utf-8">
+ 
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Divariouse - Plataforma de envios</title>
+  <meta content="Divariouse is an customized UberEats Clone App with advanced food delivery app features. Our Uber Eats clone app development services is completely integrated with cutting edge technologies and easy to use admin panel. 100% White labelling, User Friendly App . Check the Demo App" name="descriptison">
+  <meta content="UberEats Clone , Ubereats/Rappi clones, UberEats Like Apps, UberEats Clone App Development, App like UberEats, Uber Eats App, Uber Eats like food delivery app, UberEats Clone App Solution, Food Delivery Clone, Ubereats Clone app, UberEats Clone App Development Services" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../../images/favicon.png" rel="icon">
+  <link href="../../images/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/icofont.min.css" rel="stylesheet">
+  <link href="../css/boxicons.min.css" rel="stylesheet">
+  <link href="../css/venobox.css" rel="stylesheet">
+  <link href="../css/remixicon.css" rel="stylesheet">
+  <link href="../css/owl.carousel.min.css" rel="stylesheet">
+  <link href="../css/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../css/style.css" rel="stylesheet">
+
+<style type="text/css">
+  .gofereats .alert.pro-alert {
+    background: #50a524;
+}
+.gofereats .gofereats-alert {
+    display: block;
+}
+.alert.pro-alert {
+    position: fixed;
+    box-shadow: 0 0 8px 1px #ffffff1f;
+    bottom: 10px;
+    margin: 0;
+    background:transparent linear-gradient(240deg, #FF6200 0%, #FF0000 100%) 0% 0% no-repeat padding-box;
+opacity: 1;
+    left: 70px;
+    right: 70px;
+    padding: 5px;
+    z-index: 99;
+    text-align: center;
+}
+.alert.pro-alert p{font-size: 13px;
+    margin: 0;
+    padding: 5px 5px;}
+.alert.alert-dismissible .icofont-close {
+    font-size: 12px;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    padding: 5px;
+    line-height: 1;
+    z-index: 1;
+}
+[class*=" icon-"]:before {
+    font-family: trioangle!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    font-variant: normal!important;
+    text-transform: none!important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  .alert.alert-dismissible .icon-cancel:before {
+    display: inline-block;
+    vertical-align: top;
+}
+.alert{
+  border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.faq .faq-list .icofont-check-circled {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    left: 20px;
+    color: #34e5a6;
+}
+  .faq .faq-list .icofont-simple-down, .faq .faq-list .icofont-simple-up {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.faq .faq-list a.collapsed .icofont-simple-down {
+    display: inline-block;
+}
+.faq .faq-list .icofont-simple-down {
+    display: none;
+}
+.faq .faq-list a.collapsed .icofont-simple-up {
+    display: none;
+}
+.about .video-box1 {
+    background: url("../../images/UberEats%20Clone%20App%20Development1.png") center center no-repeat;
+    background-size: contain;
+    min-height: 300px;
+}
+#wh-widget-send-button.wh-widget-right {right: 120px !important;}
+<!--
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  z-index: 2;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 10px 13px;
+  transition: all 0.3s ease;
+  color: white;
+  border:1px solid #fff;
+  font-size: 15px;
+  border-radius:50px;
+  margin-top:20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.phone1 {
+  background: #009edc;
+  color: white;
+}
+
+.whatsapp {
+  background: #0ebf2d;
+  color: white;
+}
+
+.mail {
+  background: #e21313;
+  color: white;
+} -->
+button:focus {
+    outline: 0px dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+}
+
+</style>
+
+</head>
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+      <div class="logo mr-auto">
+        <h1 class="text-light"><a href="/"><img src="../images/logo.png" class="img-fluid"></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+       <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#home">Inicio</a></li>
+          <li><a href="#why">Por qu&#233; Divariouse</a></li>
+          <li><a href="#overview">Visión</a></li>
+          <li><a href="#features">Caracter&#237;sticas</a></li>
+          <li><a href="#demo">Demo</a></li>
+		  <li><a href="#advantages">Ventaja</a></li>	
+		  <li><a href="#technology">Tecnolog&#237;a</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contacto</a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+
+    <div class="container" id="home">
+      <div class="row">
+        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
+          <div data-aos="zoom-out">
+            <h1>App clon de UberEats, Swiggy, Rappi y PedidosYa lista para entregar comida a domicilio</h1>
+            <h2 style="color: #fff;font-size: 20px;">Inicie su negocio de pedidos de comida a la carta con Divariouse</h2>
+            <div class="text-center text-lg-left">
+              <a href="#contact" class="btn btn-default btn-rounded mb-4 btn-get-started scrollto" data-toggle="modal" data-target="#modalSubscriptionForm">Comenzar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
+          <img src="../images/UberEats-Clone-app.png" class="img-fluid animated" alt="Uber Eats como aplicación de reparto de comida">
+        </div>
+      </div>
+    </div>
+
+    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 24 150 28 " preserveaspectratio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </path></defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </use></g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </use></g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </use></g>
+    </svg>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="why" class="about">
+      <div class="container">
+        <div class="container">
+
+        <h2 class="text-center" style="color: black; font-size: 30px;font-weight: 600;">&#191;Por qu&#233; elegir Divariouse para sus servicios de desarrollo de aplicaciones clonadas <br>de UberEats, Swiggy, Rappi y PedidosYa?</h2>
+            <p class="text-center" style="color: black;">Divariouse ofrece Top clasificado UberEats aplicaci&#243;n clon que tiende a proporcionar caracter&#237;sticas inigualables y las funcionalidades avanzadas que le ayudar&#225;n a superar la competencia en el mercado y volar hasta la cima en ning&#250;n momento.</p>
+          </div>
+
+        <div class="row">
+          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch">
+          </div>
+
+          <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
+            
+
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon"><img src="../images/AppOptimisation.png" alt="Optimización de aplicaciones y alta en tiendas"></div>
+              <h3 class="title"><a>Optimizaci&#243;n de aplicaciones y alta en tiendas</a></h3>
+              <p class="description">Le damos libre de problemas App presentaci&#243;n despu&#233;s de probar la aplicaci&#243;n y la publicaci&#243;n de su aplicaci&#243;n para Android en Google Play Store y iOS aplicaci&#243;n en la App Store de forma gratuita</p>
+            </div>
+
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+              <div class="icon"><img src="../images/NativeAndroid.png" alt="Food delivery native android app"></div>
+              <h3 class="title"><a>Aplicaciones nativas para Android e iOS</a></h3>
+              <p class="description">Nuestros desarrolladores de aplicaciones competentes construir todas las caracter&#237;sticas y mejorar las funcionalidades impecables en el lenguaje nativo de Android y iOS para ofrecer un servicio f&#225;cil de usar</p>
+            </div>
+
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+              <div class="icon"><img src="../images/Whitelabelling.png" alt="marca blanca ubereats clone app"></div>
+              <h3 class="title"><a>Etiquetado en blanco</a></h3>
+              <p class="description">No se cobran tasas adicionales para la marca blanca de su Food Delivery App en su propia marca / nombre de la empresa. Nuestros expertos desarrolladores se aseguran de renombrar la aplicaci&#243;n con el nombre de su empresa y el logotipo de su marca. </p>
+            </div>
+
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+              <div class="icon"><img src="../images/StandardPayment.png" alt="pago seguro aplicación alimentaria"></div>
+              <h3 class="title"><a>Integraci&#243;n de pasarelas de pago est&#225;ndar</a></h3>
+              <p class="description">Hemos realizado la integraci&#243;n de pasarelas de pago est&#225;ndar para que los usuarios puedan realizar f&#225;cilmente el pedido eligiendo pagar en l&#237;nea con sus tarjetas de d&#233;bito o cr&#233;dito u otras pasarelas de pago populares para completar su pedido con &#233;xito, mientras piden comida utilizando la aplicaci&#243;n m&#243;vil. </p>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="row">         
+
+          <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center px-lg-5" data-aos="fade-left">
+            
+
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon"><img src="../images/SourceCode.png" alt="script de clonación de fuentes sin errores"></div>
+              <h3 class="title"><a>C&#243;digo fuente 100% personalizable</a></h3>
+              <p class="description">Nuestro script clon UberEats era 100% personalizable y viene con numerosas caracter&#237;sticas enriquecidas . De acuerdo con sus necesidades hemos a&#241;adido y reconstruido las caracter&#237;sticas existentes en nuestra aplicaci&#243;n como UberEats para hacer esto tan f&#225;cil de usar. Para que sus clientes satisfechos quieran utilizar su aplicaci&#243;n m&#243;vil una y otra vez.</p>
+            </div>
+
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+              <div class="icon"><img src="../images/TechnicalSupport.png" alt="asistencia técnica completa"></div>
+              <h3 class="title"><a>Asistencia t&#233;cnica gratuita y correcci&#243;n de errores 24 horas al d&#237;a, 7 d&#237;as a la semana</a></h3>
+              <p class="description">Nuestro UberEats como aplicaci&#243;n de entrega de alimentos enriquecido con el seguimiento en tiempo real, en la aplicaci&#243;n de llamadas caracter&#237;sticas que le permite ofrecer a los usuarios una aplicaci&#243;n totalmente funcional con experiencias contextuales, aumentaron la comerciabilidad y se ampliar&#225; en funci&#243;n de sus deseos de la industria que tendr&#225; en el futuro. </p>
+            </div>
+
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+              <div class="icon"><img src="../images/FreeServerinstallation.png" alt="Uber clone app server install"></div>
+              <h3 class="title"><a>Instalaci&#243;n gratuita del servidor</a></h3>
+              <p class="description">Nuestros profesionales se encargar&#225;n de integrar y desplegar su aplicaci&#243;n en el servidor de forma eficaz y gratuita.</p>
+            </div>
+
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+              <div class="icon"><img src="../images/AppRejection.png" alt="Apoyo tras el rechazo de una solicitud"></div>
+              <h3 class="title"><a>Apoyo tras el rechazo de una solicitud</a></h3>
+              <p class="description">El equipo de Divariouse le dar&#225; todo su apoyo si la solicitud es rechazada durante la presentaci&#243;n de la misma. Nuestro experto equipo t&#233;cnico le proporcionar&#225; asistencia gratuita y orientaci&#243;n completa para la homologaci&#243;n.</p>
+            </div>
+
+          </div>
+          <div class="col-xl-5 col-lg-6 video-box1 d-flex justify-content-center align-items-stretch" data-aos="fade-right">
+            
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Gallery Section ======= -->
+	<div class="container" style="padding: 50px 0 0;">
+  <div class="section-title">
+          <p style="text-align: center;">&#128188; Convi&#233;rtete en distribuidor oficial y empieza a vender nuestro software</p>
+        </div>
+        <p>&#191;Quieres generar ingresos revendiendo un software listo para su lanzamiento? Con nuestro programa de distribuidores, puede ofrecer nuestras soluciones digitales con su propia marca y obtener grandes beneficios.</p>
+        <center>
+        <table>
+            <tr>
+             <th>&#191;Por qu&#233; ser distribuidor?</th>
+            </tr>
+            <tr>
+                <td>✔️ Software listo para la venta con asistencia completa incluida.</td>
+            </tr>
+            <tr>
+                <td>✔️ Personalizaci&#243;n con su propia marca y logotipo.</td>
+            </tr>
+            <tr>
+                <td>✔️ Altas comisiones y opciones de licencia flexibles.</td>
+            </tr>
+            <tr>
+                <td>✔️ Materiales de marketing y apoyo dedicado para impulsar sus ventas.</td>
+            </tr>
+        </table>
+        <br>
+        <a href="#contact" class="text-center btn1">&#128233; SER REVENDEDOR</a>
+      </center>  
+</div>
+
+    <section id="overview">
+      <div class="container text-center">
+        <h2 style="color: black; font-size: 30px;font-weight: 600;">&#191;C&#243;mo funciona UberEats, Swiggy, Zomato y Dunzo Clone Script?</h2>
+        <p class="py-4">Flujo general del proceso de nuestra aplicaci&#243;n Divariouse como clon de UberEats, Para conocer Divariouse en detalle </p>
+        <img src="../images/clone-app-work-flow.png" alt="Flujo de trabajo de la aplicación UberEats" style="width: 100%;">
+      </div>
+	  <div class="container" style="margin-top: 100px;">
+      <div class="row">
+      <div class="col-md-5 aos-init aos-animate" data-aos="fade-right" data-aos-delay="100">
+        <center><img src="../images/App-like-UberEats.png" alt="Script de reparto de comida a la carta" style="max-height: 300px;"></center>
+      </div>
+      <div class="col-md-7 aos-init aos-animate" data-aos="fade-right" data-aos-delay="100">
+        <h2 style="color: black; font-size: 30px;font-weight: 600;"> Vuela alto con Zomato, Swiggy y Dunzo como gui&#243;n de entrega de comida a la carta </h2>
+        <p>En el mundo actual la evoluci&#243;n de un negocio de reparto de comida online ha llegado a su punto &#225;lgido gracias a las empresas de reparto de comida de primera categor&#237;a. La mayor&#237;a de los magnates de los negocios y los empresarios se inspiran para entrar en este negocio de entrega de alimentos para que Divariouse ofrece &#250;ltima elecci&#243;n de aplicaci&#243;n de script clon readymade de los m&#225;s prominentes UberEats, Foodpanda, Swiggy, Zomota, DoorDash, Postmates o Grubhub como aplicaciones de alimentos. Con nosotros usted puede conseguir su UberEats como aplicaci&#243;n de entrega de comida en el idioma y la moneda que prefiera. Nuestros expertos desarrolladores utilizan tecnolog&#237;as de vanguardia para ofrecer aplicaciones clonadas de UberEats que le ayudar&#225;n a alcanzar su objetivo.</p>
+      </div>
+    </div>
+	</div>
+    </section>
+
+    <section id="counts" class="counts" style="padding: 36px 0 60px !important;">
+       <h2 style="color: black;padding-bottom: 20px;padding-bottom: 57px;font-weight: 600;" class="text-center">Divariouse incluye</h2>
+      <div class="container">
+
+        <div class="row">        
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i><img src="../images/Customerapp.png" alt="ubereats clone user app" style="width: 38px;height: 38px;"></i>
+              
+              <p>Aplicaci&#243;n cliente</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+               <i><img src="../images/DeliveryApp.png" alt="ubereats clone delivery app" style="width: 38px;height: 38px;"></i>
+              
+              <p>Aplicaci&#243;n de entrega</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i><img src="../images/RestaurantApp.png" alt="ubereats clone restaurant app" style="width: 38px;height: 38px;"></i>
+              
+              <p>Aplicaci&#243;n para restaurantes</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+               <i><img src="../images/AdminPanel.png" alt="Ubereats/Rappi clones panel de administración" style="width: 38px;height: 38px;"></i>
+              
+              <p>Panel de administraci&#243;n</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Counts Section -->
+
+  
+
+    <section id="features" class="features">
+      <div class="container">
+
+          
+          <h2 style="color: black;padding-bottom: 20px;padding-bottom: 57px;font-weight: 600;" class="text-center">Compruebe las caracter&#237;sticas est&#225;ndar de nuestra aplicaci&#243;n Divariouse - Soluci&#243;n de aplicaci&#243;n de entrega personalizable</h2>
+        
+
+        <div class="row">
+          <div class="col-lg-3 col-md-4">
+            <div class="icon-box">
+              <img src="../images/GPSTracking.png" alt="app de reparto de comida con seguimiento gps" style="margin-right: 14px;">
+              <h3><a href="">Seguimiento GPS en tiempo real<br></a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box">
+             <img src="../images/Securepayment.png" alt="UberEats Clone app pago seguro" style="margin-right: 14px;">
+              <h3><a href=""><br>Pago f&#225;cil y seguro</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box">
+              <img src="../images/AvailabilityStatus.png" alt="estado de disponibilidad del socio de entrega" style="margin-right: 14px;">
+              <h3><a href=""><br>DriverAvailability Estado</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <img src="../images/PickupInformation.png" alt="UberEats como estado de recogida de la aplicación" style="margin-right: 14px;">
+              <h3><a href=""><br>Informaci&#243;n de recogida</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <img src="../images/DeliveryInformation.png" alt="UberEats como estado de entrega de la aplicación" style="margin-right: 14px;">
+              <h3><a href=""><br>Informaci&#243;n de entrega</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <img src="../images/DocumentVerification.png" alt=" Verificación de socios de entrega de apps de comida " style="margin-right: 14px;">
+              <h3><a href=""><br>ConductoresVerificaci&#243;n de documentos</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <img src="../images/RestaurantStatus.png" alt="App como UberEats estado del restaurante" style="margin-right: 14px;">
+              <h3><a href="">RestauranteEstado<br></a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <img src="../images/OrderManagement.png" alt="UberEats clona la gestión de pedidos" style="margin-right: 14px;">
+              <h3><a href=""><br>Gesti&#243;n de pedidos</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <img src="../images/OffersManagement.png" alt="Gestión de ofertas clonadas de UberEats" style="margin-right: 14px;">
+              <h3><a href=""><br>OfertasGesti&#243;n</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <img src="../images/ResponsiveDesign.png" alt="app clon responsive de ubereats" style="margin-right: 14px;">
+              <h3><a href="">ResponsiveDesign<br></a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <img src="../images/Ratings.png" alt="valoración de las aplicaciones de reparto de comida" style="margin-right: 14px;">
+              <h3><a href="">Opiniones y <br>valoraciones</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <img src="../images/Vehicle.png" alt="vehículo socio de reparto" style="margin-right: 14px;">
+              <h3><a href=""><br>Gesti&#243;n de veh&#237;culos</a></h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+    <section id="demo" class="details">
+      <div class="container">
+        <h2 class="text-center" style="color: black;font-size: 30px;font-weight: 600;">Qu&#233; ofrecemos en nuestra aplicaci&#243;n clon de UberEats Like</h2>
+        <p class="text-center">Aplicaci&#243;n para clientes, aplicaci&#243;n para restaurantes, aplicaci&#243;n para entregas y panel de administraci&#243;n</p>
+
+        <div class="row content">
+          <div class="col-md-4">
+            <img src="../images/uber-clone-user-app.png" class="img-fluid" alt="Solución UberEats Clone App">
+          </div>
+          <div class="col-md-8 pt-4">
+            <h3>Aplicaci&#243;n de usuario</h3>
+            <p> La aplicaci&#243;n de usuario est&#225; especialmente dise&#241;ada para que los clientes busquen alimentos en la lista de men&#250;s y hagan un pedido sin esfuerzo a los restaurantes cercanos. </p>
+            <h5 style="color: #0EB100;">Caracter&#237;sticas</h5>
+            <div class="row">
+              <div class="col-md-6">
+            <ul>              
+              <li><i class="icofont-check"></i> Registro de usuarios</li>
+              <li><i class="icofont-check"></i> Multiling&#252;e (ingl&#233;s / &#225;rabe y m&#225;s)</li>
+              <li><i class="icofont-check"></i> Opci&#243;n de b&#250;squeda de alimentos</li>
+              <li><i class="icofont-check"></i> Lista de men&#250;s</li>
+              <li><i class="icofont-check"></i> Ofertas y cupones de alimentaci&#243;n</li>
+              <li><i class="icofont-check"></i> Alimentos favoritos</li>
+              <li><i class="icofont-check"></i> Lista de pedidos frecuentes de alimentos</li>
+              <li><i class="icofont-check"></i> Historial de pedidos de comida</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+           
+            <ul>
+              <li><i class="icofont-check"></i>Gestionar perfil</li>
+              <li><i class="icofont-check"></i> Comida para llevar</li>
+              <li><i class="icofont-check"></i> Programe su comida</li>
+              <li><i class="icofont-check"></i> Ver carrito</li>
+              <li><i class="icofont-check"></i>M&#250;ltiples opciones de pago seguro</li>
+              <li><i class="icofont-check"></i>Seguimiento del pedido</li>
+              <li><i class="icofont-check"></i>Detalles del pedido por Whatsapp</li>
+              <li><i class="icofont-check"></i>Alertas de pedido por correo electr&#243;nico/SMS</li>
+               <li><i class="icofont-check"></i>Ayuda y asistencia</li>
+            </ul>
+          </div>
+           </div>
+           <!--<a href="#"><img src="assets/img/icon/ubereats-user-app-ios.png" alt="iOS ubereats user app"></a>-->
+          </div>
+        </div>
+
+        <div class="row content">
+          <div class="col-md-4 order-1 order-md-2">
+            <img src="../images/ubereats-restaurant-app.png" class="img-fluid" alt="Uber clona una aplicación para restaurantes">
+          </div>
+          <div class="col-md-8 pt-5 order-2 order-md-1">
+            <h3>Restaurantes App</h3>
+            <p> Restaurantes aplicaci&#243;n est&#225; construida exclusivamente para los socios del restaurante para la gesti&#243;n de los pedidos de comida, la actualizaci&#243;n del men&#250; de comida personalizada con el precio y el seguimiento de los movimientos del conductor. </p><h5 style="color: #0EB100;">Caracter&#237;sticas</h5>
+            <div class="row">
+
+              <div class="col-md-6">
+            <ul>              
+              <li><i class="icofont-check"></i> Inicio de sesi&#243;n del equipo del restaurante</li>
+              <li><i class="icofont-check"></i> A&#241;adir/Editar/Borrar Men&#250; Comida</li>
+              <li><i class="icofont-check"></i> Gestionar la disponibilidad de los pedidos de alimentos</li>
+              <li><i class="icofont-check"></i> Cuadro de mandos de pedidos de comida</li>
+              <li><i class="icofont-check"></i> Alertas de pedidos de comida</li>
+              
+            </ul>
+          </div>
+          <div class="col-md-6">
+              
+            <ul>
+              <li><i class="icofont-check"></i>Gestionar los lugares de entrega </li>
+              <li><i class="icofont-check"></i>Gestionar ofertas y cupones</li>
+              <li><i class="icofont-check"></i>Contactar con los clientes</li>
+              <li><i class="icofont-check"></i> Gesti&#243;n multipago</li>
+              <li><i class="icofont-check"></i>Informaci&#243;n para clientes</li>
+              <li><i class="icofont-check"></i>Soporte multiling&#252;e (tamil/ingl&#233;s)</li>
+              
+            </ul>
+          </div>
+           </div>
+          </div>
+        </div>
+
+        <div class="row content">
+          <div class="col-md-4">
+            <img src="../images/uber-clone-driver-app.png" class="img-fluid" alt="Clon de la aplicación de reparto UberEats">
+          </div>
+          <div class="col-md-8 pt-5">
+            <h3>Aplicaci&#243;n de entrega</h3>
+            <p>Driver App est&#225; totalmente dise&#241;ada para gestionar la solicitud de pedidos de comida y llamadas In-app.</p>
+             <h5 style="color: #0EB100;">Caracter&#237;sticas</h5>
+            <div class="row">
+                    
+              <div class="col-md-6">
+            <ul>              
+              <li><i class="icofont-check"></i> Perfil</li>
+              <li><i class="icofont-check"></i> Ajustes de disponibilidad</li>
+              <li><i class="icofont-check"></i> Gestionar pedidos</li>
+              <li><i class="icofont-check"></i> Solicitudes en tiempo real</li>
+              <li><i class="icofont-check"></i> Seguimiento en tiempo real</li>
+              <li><i class="icofont-check"></i> Notificaciones dentro de la aplicaci&#243;n</li>
+              <li><i class="icofont-check"></i> Llamadas dentro de la aplicaci&#243;n</li>
+              
+            </ul>
+          </div>
+          <div class="col-md-6">
+                
+            <ul>
+              <li><i class="icofont-check"></i> Navegaci&#243;n (Ubicaci&#243;n del restaurante)</li>
+              <li><i class="icofont-check"></i> Historial de pedidos</li>
+              <li><i class="icofont-check"></i> Historial de pagos</li>
+              <li><i class="icofont-check"></i> Historial de entregas</li>
+              <li><i class="icofont-check"></i> Gestionar el pago</li>
+              <li><i class="icofont-check"></i> Ayuda y asistencia</li>
+              
+            </ul>
+          </div>
+           </div>
+          </div>
+          </div>
+           <br>
+           <center> 
+            <a href="preview.html?url=https://demo.bastisapp.com/" class="text-center btn1" style="margin-bottom: 30px;"><img src="../images/Icon%20feather-eye.png" style="padding-right: 10px;">Demo Sitio Web</a> 
+            <a href="https://drive.google.com/file/d/1pCqM1jeBft9wJn3dyhdVIkfAirRLpDi5/view?usp=sharing" class="text-center btn1" style="margin-bottom: 30px;"><img src="../images/Icon%20feather-eye.png" style="padding-right: 10px;">Demo Aplicaci&#243;n Cliente </a>
+            <a href="https://drive.google.com/file/d/1FJzkhJXJJMe1KuV9cUzNm9qPIS4dYytL/view?usp=sharing" class="text-center btn1" style="margin-bottom: 30px;"><img src="../images/Icon%20feather-eye.png" style="padding-right: 10px;">Demo Aplicaci&#243;n Comerciante </a>
+            <a href="https://drive.google.com/file/d/1RRW_JcFTwrdjawVg6t7Cr8RyqDCSio_0/view?usp=sharing" class="text-center btn1" style="margin-bottom: 30px;"><img src="../images/Icon%20feather-eye.png" style="padding-right: 10px;">Demo Aplicaci&#243;n Conductor </a>
+          </center>
+
+        
+
+
+        <div class="row content">
+          <div class="col-md-12 text-center">
+             <h3 style="color: black;font-size: 30px;font-weight: 600;">Panel de administraci&#243;n</h3>
+      <p>El panel de administraci&#243;n est&#225; totalmente personalizado para aprobar, gestionar y controlar el equipo de restaurantes y los socios de reparto. A trav&#233;s de este panel tambi&#233;n puede supervisar las entregas de pedidos y el coste de los servicios.</p>
+            <img src="../images/adminpannel.png" class="img-fluid" alt="Panel de administración del clon de UberEats">
+          </div>
+          <div class="col-md-12 pt-5">
+            <h5 class="text-center" style="color: #0EB100; margin-bottom: 15px;">Caracter&#237;sticas</h5>
+            <div class="row">
+                    
+              <div class="col-md-3">
+            <ul>              
+              <li><i class="icofont-check"></i> Cuadro de mandos</li>
+              <li><i class="icofont-check"></i> Pedir copias de seguridad y restauraci&#243;n de bases de datos</li>
+              <li><i class="icofont-check"></i> Gesti&#243;n de la ubicaci&#243;n</li>
+              <li><i class="icofont-check"></i> Mensaje Cliente / Restaurante / Socio de reparto</li>             
+            </ul>
+          </div>
+          <div class="col-md-3">               
+            <ul>
+              <li><i class="icofont-check"></i> App de reparto de comida Gesti&#243;n de anuncios</li>
+              <li><i class="icofont-check"></i> Gesti&#243;n de contenidos de aplicaciones de reparto de comida</li>
+              <li><i class="icofont-check"></i> Gesti&#243;n de categor&#237;as de aplicaciones de reparto de comida</li>             
+            </ul>
+          </div>
+          <div class="col-md-3">               
+            <ul>
+              <li><i class="icofont-check"></i> Cambiar/Restablecer contrase&#241;a</li>
+              <li><i class="icofont-check"></i> Seguimiento de las revisiones/calificaciones</li>
+              <li><i class="icofont-check"></i> Notificaci&#243;n por correo electr&#243;nico</li> 
+              <li><i class="icofont-check"></i> Gesti&#243;n de usuarios </li>             
+            </ul>
+          </div>
+          <div class="col-md-3">             
+            <ul>
+              <li><i class="icofont-check"></i> Gesti&#243;n de restaurantes</li>
+              <li><i class="icofont-check"></i> Gesti&#243;n de la entrega</li>
+              <li><i class="icofont-check"></i> C&#243;digos de descuento</li> 
+              <li><i class="icofont-check"></i> C&#243;digos promocionales</li>             
+            </ul>
+          </div>
+           </div>
+           <div class="text-center"> <a href="preview.html?url=https://demo.bastisapp.com/backoffice" class="text-center btn1"><img src="../images/Icon%20feather-eye.png" style="padding-right: 10px;">Demo Panel de Administración</a>
+            <a href="preview.html?url=https://demo.bastisapp.com/backoffice/merchant" class="text-center btn1"><img src="../images/Icon%20feather-eye.png" style="padding-right: 10px;">Demo Panel de vendedor </a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Details Section -->
+    <section id="advantages" class="counts" style="padding: 36px 0 60px !important;">
+       <h2 style="color: black;padding-bottom: 20px;padding-bottom: 57px;font-weight: 600;" class="text-center">Ventaja de comprar<br> UberEats/Rappi app ?</h2>
+      <div class="container">
+
+        <div class="row">        
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i><img src="../images/DevelopmentCost.png" alt="coste de la aplicación ubereats clone" style="width: 42px;height: 42px;"></i>
+              
+              <p>Ahorre 6 meses de costes <br>de desarrollo</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+             <i><img src="../images/SaveTime.png" alt="ahorra tiempo con clone app" style="width: 42px;height: 42px;"></i>
+              
+              <p>Ahorro de tiempo en la correcci&#243;n de errores</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i><img src="../images/qualitycodebase.png" alt="script clon de calidad" style="width: 42px;height: 42px;"></i>
+              
+              <p><br>C&#243;digo base de alta calidad</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i><img src="../images/Getyourapp.png" alt="comprar ubereats clone app" style="width: 42px;height: 42px;"></i>
+              
+              <p>Obtenga su appin<br> 3-4 d&#237;as</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+	
+	
+	
+    <section id="advantages" class="features">
+      <div class="container">
+
+  
+          
+          <h2 style="color: black;padding-bottom: 20px;padding-bottom: 57px;font-weight: 600;" class="text-center">Ubereats/Rappi clone para <br>Pedidos-Entregas Start-ups</h2>
+        <p>UberEat Clone script ha inspirado a muchos empresarios y magnates de negocios para entrar en el negocio de entrega de alimentos con mucha m&#225;s confianza en s&#237; mismo. Cree su propia aplicaci&#243;n de pedidos de comida personalizada para su personal/clientes mejorando el soporte multiling&#252;e, el seguimiento de pedidos en tiempo real, el pago en l&#237;nea, las opciones de pago contra reembolso y muchos m&#225;s factores para aumentar sus ingresos y mejorar la experiencia de pedido del cliente.</p>
+        <p>Adem&#225;s de gestionar un negocio de reparto de comida, Divariouse puede codificarse y personalizarse sin esfuerzo para servir a los siguientes modelos de negocio:</p>
+
+        <div class="row" style="margin-top: 50px;">
+          <div class="col-lg-4 col-md-4">
+            <div class="icon-box">
+              <img src="../images/GroceryDelivery.png" alt="aplicación de pedidos de comestibles" style="margin-right: 16px;">
+              <h3><a>Entrega de comestibles</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box">
+             <img src="../images/fruits-delivery-app.png" alt="App de reparto de frutas y verduras" style="margin-right: 16px;">
+              <h3><a>Frutas / VerdurasEntrega<br></a></h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box">
+              <img src="../images/MeatDelivery.png" alt="App de entrega de pescado y carne" style="margin-right: 16px;">
+              <h3><a>Pescado y <br>carneEntrega</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 mt-4">
+            <div class="icon-box">
+              <img src="../images/FoodDelivery.png" alt="Desarrollo de aplicaciones de reparto de comida" style="margin-right: 16px;">
+              <h3><a>Entrega de alimentos</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 mt-4">
+            <div class="icon-box">
+              <img src="../images/ClothingDelivery.png" alt="Aplicación de entrega de ropa y Apprarel" style="margin-right: 16px;">
+              <h3><a>Ropa y <br>Apprarelshopping</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 mt-4">
+            <div class="icon-box">
+              <img src="../images/GiftDelivery.png" alt="Aplicación clónica de entrega de regalos" style="margin-right: 16px;">
+              <h3><a>Entrega de regalos</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 mt-4">
+            <div class="icon-box">
+              <img src="../images/RetailDelivery.png" alt="Aplicación de reparto al por menor" style="margin-right: 16px;">
+              <h3><a>Entrega al por menor</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 mt-4">
+            <div class="icon-box">
+              <img src="../images/BakeryDelivery.png" alt="pedido de tartas panadería entrega app" style="margin-right: 16px;">
+              <h3><a>Baker &amp; <br>SweetsEntrega</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 mt-4">
+            <div class="icon-box">
+              <img src="../images/BottledWater.png" alt="aplicación de entrega de agua embotellada" style="margin-right: 16px;">
+              <h3><a><br>Entrega de agua embotellada</a></h3>
+            </div>
+          </div>
+         
+        
+          
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+    <section id="technology" class="">
+      <div class="container-fluid">
+          
+          <h2 style="color: black;padding-bottom: 20px;padding-bottom: 57px;font-weight: 600;" class="text-center">M&#233;todos<br> de pago integrados para todos los pa&#237;ses &#128179;</h2>
+        <div class="row">
+        <div class="col-md-12">
+        <div class="row">
+          <div class="col-lg-2 col-sm-6 col-md-6">            
+            <center><img src="../images/paypal.png"></center>          
+          </div>
+          <div class="col-lg-2 col-sm-6 col-md-6">            
+             <center><img src="../images/razorpay.png"></center>   
+          </div>
+          <div class="col-lg-2 col-sm-6 col-md-6">
+              <center><img src="../images/mercadopago.png"></center>   
+          </div>
+          <div class="col-lg-2 col-sm-6 col-md-6">
+             <center><img src="../images/stripe.png"></center>   
+          </div>
+          <div class="col-lg-2 col-sm-6 col-md-6">
+              <center><img src="../images/banktransfer.png"></center>   
+          </div>
+          <div class="col-lg-2 col-sm-6 col-md-6">
+              <center><img src="../images/creditcard.png"></center>   
+          </div>
+        </div>
+
+      </div>
+    </div>
+      </div>
+    </section><!-- End Features Section -->
+	
+
+	
+    <section id="faq" class="faq section-bg">
+      <div class="container">
+
+        <div class="section-title">
+         
+          <p>Preguntas frecuentes</p>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li>
+              <i class="icofont-check-circled"></i><h2><a data-toggle="collapse" class="collapse" href="#faq-list-1">&#191;C&#243;mo puedo gestionar a mis clientes a trav&#233;s de esta aplicaci&#243;n de reparto de comida?<i class="icofont-simple-down"></i><i class="icofont-simple-up"></i></a></h2>
+              <div id="faq-list-1" class="collapse show" data-parent=".faq-list">
+                <p> En comparación con otras aplicaciones, Nuestra aplicaci&#243;n clon le proporciona la propiedad completa del panel de control de la aplicaci&#243;n. Los proveedores y clientes de tu restaurante te pertenecen y te permitimos gestionarlos completamente a trav&#233;s del panel de administraci&#243;n. </p>
+              </div>
+            </li>
+
+            <li>
+              <i class="icofont-check-circled"></i><h2><a data-toggle="collapse" href="#faq-list-2" class="collapsed">&#191;Has desarrollado una aplicaci&#243;n de reparto de comida tipo Uber eats para mi propio restaurante?<i class="icofont-simple-down"></i><i class="icofont-simple-up"></i></a></h2>
+              <div id="faq-list-2" class="collapse" data-parent=".faq-list">
+                <p> S&#237;, ofrecemos solicitudes para restaurantes individuales y m&#250;ltiples, seg&#250;n su elecci&#243;n. </p>
+              </div>
+            </li>
+
+            <li>
+              <i class="icofont-check-circled"></i><h2><a data-toggle="collapse" href="#faq-list-3" class="collapsed">&#191;Cu&#225;nto cuesta desarrollar una aplicaci&#243;n m&#243;vil de reparto de comida similar a UberEats?<i class="icofont-simple-down"></i><i class="icofont-simple-up"></i></a></h2>
+              <div id="faq-list-3" class="collapse" data-parent=".faq-list">
+                <p> En función de las caracteristicas que desee añadir a su aplicación m&#243;vil de entrega de comida a domicilio y tambi&#233;n de las funcionalidades a las que desee acceder a trav&#233;s del m&#243;vil. </p>
+              </div>
+            </li>
+
+            <li>
+              <i class="icofont-check-circled"></i><h2><a data-toggle="collapse" href="#faq-list-4" class="collapsed">&#191;Puedo tener mi aplicaci&#243;n clon de uber tanto en Android como en iOS?<i class="icofont-simple-down"></i><i class="icofont-simple-up"></i></a></h2>
+              <div id="faq-list-4" class="collapse" data-parent=".faq-list">
+                <p> S&#237; nuestros desarrolladores expertos despliegan UberEat clon script en ambos. As&#237; que usted puede conseguir su aplicaci&#243;n de entrega de comida en ambas plataformas Android y iOS. </p>
+              </div>
+            </li>
+
+            <li>
+              <i class="icofont-check-circled"></i><h2><a data-toggle="collapse" href="#faq-list-5" class="collapsed">&#191;Cu&#225;nto tiempo se necesita para desplegar la aplicaci&#243;n My UberEats Clone?<i class="icofont-simple-down"></i><i class="icofont-simple-up"></i></a></h2>
+              <div id="faq-list-5" class="collapse" data-parent=".faq-list">
+                <p> Tenemos arreglos instant&#225;neos. Si busca alg&#250;n dise&#241;o exclusivo o caracter&#237;sticas personalizadas, podemos desplegar la aplicaci&#243;n en un plazo de 5 d&#237;as laborables. Este periodo de tiempo es necesario para configurar las aplicaciones con tu marca particular y publicarlas en play store. </p>
+              </div>
+            </li>
+            <li>
+              <i class="icofont-check-circled"></i><h2><a data-toggle="collapse" href="#faq-list-6" class="collapsed">&#191;Dispone el cliente y la aplicaci&#243;n del restaurante de una opci&#243;n para el seguimiento?<i class="icofont-simple-down"></i><i class="icofont-simple-up"></i></a></h2>
+              <div id="faq-list-6" class="collapse" data-parent=".faq-list">
+                <p> S&#237;, implementamos las funciones de seguimiento en tiempo real tanto en la aplicaci&#243;n del cliente como en la del proveedor del restaurante. De este modo, el cliente puede hacer un seguimiento de su pedido y los vendedores pueden saber d&#243;nde se encuentra el conductor, lo que ayuda al restaurante a preparar la comida. </p>
+              </div>
+            </li>
+            <li>
+              <i class="icofont-check-circled"></i><h2><a data-toggle="collapse" href="#faq-list-7" class="collapsed">&#191;Qu&#233; es un clon de UberEats?<i class="icofont-simple-down"></i><i class="icofont-simple-up"></i></a></h2>
+              <div id="faq-list-7" class="collapse" data-parent=".faq-list">
+                <p> Un clon de UberEats es una r&#233;plica que refleja todas las caracter&#237;sticas y funcionalidades de las populares aplicaciones de reparto de comida. Para que el script de clonaci&#243;n se despliegue y personalice al instante. Mediante el uso de esta aplicaci&#243;n Clone usted puede comenzar su negocio que est&#225; a la par con los l&#237;deres de la industria como Zomato ,Swiggy y Postmates. </p>
+              </div>
+            </li>
+            <li>
+              <i class="icofont-check-circled"></i><h2><a data-toggle="collapse" href="#faq-list-8" class="collapsed">&#191;Costes adicionales por publicar las aplicaciones en Google Play Store?<i class="icofont-simple-down"></i><i class="icofont-simple-up"></i></a></h2>
+              <div id="faq-list-8" class="collapse" data-parent=".faq-list">
+                <p> &#201;ste forma parte de nuestro paquete Clone. As&#237; que no lo cobramos aparte. Despu&#233;s de comprar nuestra aplicaci&#243;n clon. Le ayudamos a optimizar y presentar la aplicaci&#243;n en Play Store de forma gratuita. </p>
+              </div>
+            </li>
+            <li>
+              <i class="icofont-check-circled"></i><h2><a data-toggle="collapse" href="#faq-list-9" class="collapsed">&#191;Qu&#233; pasarelas de pago admite Divariouse?<i class="icofont-simple-down"></i><i class="icofont-simple-up"></i></a></h2>
+              <div id="faq-list-9" class="collapse" data-parent=".faq-list">
+                <p> Hemos integrado Paypal, Stripe y algunas otras pasarelas de pago. </p>
+              </div>
+            </li>
+            <li>
+              <i class="icofont-check-circled"></i><h2><a data-toggle="collapse" href="#faq-list-10" class="collapsed">&#191;Tiene esta aplicaci&#243;n Ubereats/Rappi clone una opci&#243;n para dar una calificaci&#243;n y revisi&#243;n?<i class="icofont-simple-down"></i><i class="icofont-simple-up"></i></a></h2>
+              <div id="faq-list-10" class="collapse" data-parent=".faq-list">
+                <p> Nuestra aplicaci&#243;n Divariouse ofrece esta opci&#243;n de valoraci&#243;n y rese&#241;a en la aplicaci&#243;n de restaurante, as&#237; como en los servicios de entrega. </p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+	  
+
+
+    </section><!-- End F.A.Q Section -->
+
+    <!-- ======= Features Section ======= -->
+    
+
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+	
+
+	
+      <div class="container">
+
+
+        <div class="row">
+
+          <div class="col-lg-4">
+
+          
+        <div class="section-title">
+          <h2>P&#243;ngase en contacto con</h2>
+          <p>P&#243;ngase en contacto con nosotros</p>
+        </div>
+            <div class="info">
+             
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Correo electr&#243;nico:</h4>
+                <p><a href="mailto:divariousecompany@gmail.com">divariousecompany@gmail.com</a></p>
+              </div>
+              <br>
+              <br>
+			  
+			  <div class="social-links mt-3">
+                <a href="https://twitter.com/Divariouseapp" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="https://www.facebook.com/Divariouse" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/Divariouse/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+            <form method="post" action="https://formsubmit.co/divariousecompany@gmail.com" role="form" class="contact-bx app">
+						
+						<div class="row placeani">
+							
+						
+							<div class="col-lg-6 col-sm-12 col-md-12">
+								<div class="form-group">
+									<div class="input-group">
+										<input name="name" type="text" placeholder="Nombre" class="form-control valid-character" required="required" data-error="Firstname is required.">
+										<div class="help-block with-errors"></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-sm-12 col-md-12">
+								<div class="form-group">
+									<div class="input-group"> 
+										<input name="email" type="email" placeholder="Correo electrónico" class="form-control" required="required" data-error="Valid email is required.">
+										<div class="help-block with-errors"></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-sm-12 col-md-12">
+								<div class="form-group">
+									<div class="input-group">
+										<input name="phone" type="number" placeholder="Número de teléfono con código de país" class="form-control int-value" required="required" data-error="Valid phone is required.">
+										<div class="help-block with-errors"></div>
+									</div>
+								</div>
+							</div>
+
+              <div class="col-lg-6 col-sm-12 col-md-12">
+								<div class="form-group">
+									<div class="input-group">
+										<input name="sub" type="text" placeholder="Tipo de aplicación" class="form-control valid-character" required="required" data-error="Subject is required.">
+										<div class="help-block with-errors"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-12">
+								<div class="form-group">
+									<div class="input-group">
+										<textarea name="message" rows="4" placeholder="Message" class="form-control" required="required" data-error="Please, leave us a message."></textarea>
+										<div class="help-block with-errors"></div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-lg-12">
+							    							    <input type="hidden" name="url" value="https://Divariouse.com/">
+								<button name="submit" type="submit" value="Submit" class="btn button-md disabled" style="background: #1acc8d;border-radius: 0;width: 100%;opacity: 1;color: #fff;">Enviar mensaje</button>
+							</div>
+              <input type="hidden" name="_next" value="https://divariouse.github.io/divariouse">
+              <input type="hidden" name="_captcha" value="false">
+						</div>
+					</form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    
+
+    <div class="container">
+      <div class="copyright"> 2025 &#169; Derechos de autor. <strong><span><a href="https://www.instagram.com/divariouse">Divi&#233;rtete</a></span></strong>. Todos los derechos reservados. </div>
+    </div>
+	<div class="container1" style="background: red;">
+	  <p style="color: #fff;text-align: center;margin-bottom: 0;padding: 10px;margin-top: 10px;"> Descargo de responsabilidad:no representa a Uber Technologies Inc ni est&#225; relacionado con ella y no realiza ninguna actividad de promoci&#243;n para ella. Utilizamos el t&#233;rmino &quot;UberEats&quot; con el &#250;nico fin de facilitar su identificaci&#243;n y comprensi&#243;n. </p>
+    </div>
+  </footer><!-- End Footer -->
+
+<!--Language
+  <script>
+    (function() {
+      const availableLanguages = ["en", "es", "fr", "de"]; 
+      let userLang = navigator.language || navigator.userLanguage; 
+      userLang = userLang.split('-')[0];
+  
+      if (availableLanguages.includes(userLang) && userLang !== "en") {
+        window.location.href = "/" + userLang + "/index.html"; 
+      }
+    })();
+  </script>
+  -->
+
+  <!-- Vendor JS Files -->
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+
+  <script src="../js/jquery.easing.min.js"></script>
+  <script src="../js/validate.js"></script>
+  <script src="../js/venobox.min.js"></script>
+  <script src="../js/jquery.waypoints.min.js"></script>
+  <script src="../js/counterup.min.js"></script>
+  <script src="../js/owl.carousel.min.js"></script>
+  <script src="../js/aos.js"></script>
+  <script src="../js/slick.js"></script>
+  <!-- Template Main JS File -->
+  <script src="../js/main.js"></script>
+  <script src="../js/validator.js"></script>
+  <script src="../js/contact.js"></script>
+  <script src="../js/api.js"></script>
+
+
+
+</body></html>
